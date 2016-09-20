@@ -23,11 +23,16 @@
             android:label="@string/title_activity_linear_layout"
             android:parentActivityName=".RelativeLayoutActivity"
             android:theme="@style/AppTheme.NoActionBar">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".RelativeLayoutActivity" />
         </activity>
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:label="@string/title_activity_constraint_layout"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

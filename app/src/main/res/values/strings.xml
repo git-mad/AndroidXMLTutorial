@@ -3,4 +3,5 @@
     <string name="app_name">Change for yourself</string>
     <string name="action_settings">Open Other Layout</string>
     <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="title_activity_constraint_layout">ConstraintLayoutActivity</string>
 </resources>
