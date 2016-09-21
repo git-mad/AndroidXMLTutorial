@@ -36,9 +36,13 @@ public class RelativeLayoutActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.open_linear) {
             // Start the other activity to look at the layout
             Intent intent = new Intent(this, LinearLayoutActivity.class);
+            startActivity(intent);
+        }
+        if (id == R.id.open_constraint){
+            Intent intent = new Intent(this, ConstraintLayoutActivity.class);
             startActivity(intent);
         }
 

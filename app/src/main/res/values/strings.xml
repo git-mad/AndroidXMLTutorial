@@ -1,7 +1,8 @@
 <resources>
     <!--Add your own name for the application-->
-    <string name="app_name">Change for yourself</string>
-    <string name="action_settings">Open Other Layout</string>
-    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
-    <string name="title_activity_constraint_layout">ConstraintLayoutActivity</string>
+    <string name="app_name">Relative Layout Activity</string>
+    <string name="open_linear">Open Linear Activity</string>
+    <string name="open_constraint">Open Constraint Activity</string>
+    <string name="title_activity_linear_layout">Linear Layout Activity</string>
+    <string name="title_activity_constraint_layout">Constraint Layout Activity</string>
 </resources>
